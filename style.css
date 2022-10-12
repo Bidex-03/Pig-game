@@ -220,36 +220,3 @@ main {
     top: 40rem;
   }
 }
-
-
-/* @media screen and (max-width: 425px) {
-  main {
-    width: 90%;
-    height: 90%;
-  }
-  .player {
-    padding: 5rem;
-  }
-  .name {
-    font-size: 3rem;
-  }
-  .score {
-    font-size: 6rem;
-  }
-  .current-label {
-    font-size: 1.5rem;
-  }
-  .current-score {
-    font-size: 3rem;
-  }
-  .btn {
-    padding: 0.5rem 2rem;
-    font-size: 1.5rem;
-  }
-  .btn::first-letter {
-    font-size: 2rem;
-  }
-  .dice {
-    height: 8rem;
-  }
-} */
