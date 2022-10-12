@@ -166,7 +166,90 @@ main {
   color: #c7365f;
 }
 
-
 .hidden{
   display: none;
 }
+
+
+/* -------------------------- */
+/* Media query@425px */
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 50%;
+    box-sizing: border-box;
+  }
+
+  body{
+    padding: 1rem;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .dice{
+    left: 80%;
+    top: 40rem;
+  }
+}
+
+/* -------------------------- */
+/* Media query@375px */
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 45%;
+    box-sizing: border-box;
+  }
+
+  body{
+    padding: 1rem;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .dice{
+    left: 80%;
+    top: 40rem;
+  }
+}
+
+
+/* @media screen and (max-width: 425px) {
+  main {
+    width: 90%;
+    height: 90%;
+  }
+  .player {
+    padding: 5rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .current-label {
+    font-size: 1.5rem;
+  }
+  .current-score {
+    font-size: 3rem;
+  }
+  .btn {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+  }
+  .dice {
+    height: 8rem;
+  }
+} */

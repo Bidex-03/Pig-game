@@ -74,7 +74,6 @@ btnHold.addEventListener('click', () => {
         if (playing) {
             // Adding currentScore to the active player's score
             scores[activePlayer] += currentScore;
-            console.log(scores[activePlayer]);
             document.querySelector(`#score--${activePlayer}`).textContent = scores[activePlayer];
 
             // Checking if score is >=50
